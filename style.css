@@ -1,0 +1,78 @@
+ 
+body {
+    background-color: linen;
+    font-size: 1.5em
+}
+.img-padding { 
+  padding:20px;
+  
+}
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+
+}
+
+#img-airplane:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+    
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-container > ul {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 60px;
+  font-size: 20px;
+}
+
+.flex-container > h1 {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+h1 { 
+    color: maroon;
+    display: block;
+    font-size: 3em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+ 
+}
+
+thead {color:green;}
+tbody {color:blue;}
+tfoot {color:blue;}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}

@@ -1,0 +1,68 @@
+body{
+  margin: 8px;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0; 
+  
+  background: deepskyblue;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+  height: 20px;
+  font-weight: 700;
+}
+
+.container{
+  text-decoration: none;
+  display: flex;
+  height: 80vh;
+  color: white;
+  flex-flow: column wrap;
+  background: url(http://nycdogwalkers.com/images/slide3x.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+#logo {
+  font-family: 'Oleo Script', cursive;
+  font-size: 60px;
+  align-content: center;
+  margin:auto;
+}
+
+.options {
+    display: flex;
+    flex-flow: row wrap;
+    margin:auto;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: rgb(76,175,80,.85); /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    height: 20px;
+    margin:20px;
+}

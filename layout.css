@@ -1,0 +1,32 @@
+/*****************Media Queries and responsiveness************/
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+
+  }
+  
+  #logo{
+    font-size:40px;
+    margin:auto;
+    text-align: center;
+  }
+  
+  .button{
+    padding:10px;
+  }
+
+}
